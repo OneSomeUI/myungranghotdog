@@ -1,0 +1,63 @@
+@charset "UFT-8";
+/* sub1 의 공통 */
+/* sub1 - common - S */
+.visual {
+  background-image: url(../img/visual_bgddddd2.jpg);
+}
+/* sub1 - common - E */
+
+/* sub1-4 - S */
+.menu-wrap {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+.menu-wrap ul {
+  display: flex;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+.menu-wrap ul li {
+  border: 1px solid #f8f8f8;
+  width: 400px;
+  height: 400px;
+  margin: 30px 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #f8f8f8;
+}
+.menu-wrap ul li:hover {
+  border: 2px solid #EF7D19;
+  background-color: #fff;
+}
+.menu-wrap ul li:nth-child(1) {
+  margin-left: 0;
+}
+.menu-wrap ul li:nth-child(4) {
+  margin-right: 0;
+}
+.menu-wrap ul li figure img {
+  width: 300px;
+  height: 300px;
+}
+.menu-txt {
+  text-align: center;
+}
+.menu-txt samp {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #292929;
+}
+.menu-txt p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  color: #808080;
+}
+/* sub1-4 - E */
